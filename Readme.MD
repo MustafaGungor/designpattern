@@ -1,9 +1,9 @@
-##Tasarım Desenleri
+## Tasarım Desenleri
 
-###1 - Singleton
+### 1 - Singleton
 ####    Bu tasarım deseninde , bir sınıfın içinbde yalnızca bir tane nesnesi oluşturulabilir.Tek bir arayüz sunularak, bu nesneye yalnızca buradan erişim sağlanabilir. Bu desen kullanılarak, sistem içinde değeri değişmeyen, genel değişkenler bu oluşturulan tek nesneye konulabilir.Sistemde tek nesne yaratılabilme , statik değişken ve tordamlar sayesinde olur.
 
-###2 - Fabrika Yordam 
+### 2 - Fabrika Yordam 
 ####    Fabrika yordam tasarım deseni, nesne yaratma sorumluluğunun bir yordama verilmesidir. Yaratılan nesne, bir sınıf hiyerarşisindeki alt sınıflardan biridir. Hangi alt sınıfın yaratılacağı kararı fabrika yordam içinde verilir. Bu yordam ile belirli bir sınıf hiyerarşisindeki alt nesnelerden birinin yaratma sorumluluğu belirli bir arayüze verilerek sistemden soyutlanmış olur. Böylece nesneleri yaratma kodlarında, kod tekrarları önlenmiş olur. Sistem içinde sınıfların yaratılacağı yer tek olduğu için, ilgili mantıklar tek bir yerde toplanabilir.
 ###### 
     "Örnek uygulamamız" bir resim işleyici programıdır. Bu programdaki resimler oluşturulurken,
@@ -28,7 +28,7 @@
         Üretilecek olan resmin alanı 100 birimden büyükse "jpeg", değilse "gif" formatında olsun. 
         Nesne yaratma ile ilgili bu mantığın da fabrika yordamda bulunduğuna dikkat edin.
 
-###3 - Soyut Yordam(Abstract Factory)
+### 3 - Soyut Yordam(Abstract Factory)
 ####    Yaratılma sorumluluklarının çeşitli sınıf hiyerarşileri ile sağlandığı bir tasarım desenidir. İstemci sınıf, çeşitli kategorideki sınıflara ihtiyaç duyar. Bu sınıflar, sistemde alt/üst sınıf hiyerarşileri şeklinde bulunurlar. "Soyut Fabrika" tasarım deseni bu karmaşık ve farklı hiyerarşideki sınıfların yaratılma sorumluluğunu çeşitli fabrika sınıflarına verir. İstemci ilk önce verdiği kriterlere göre uygun bir fabrika sınıfını seçer. Ardından seçtiği fabrika nesnesi, istemcinin ihtiyaç duyduğu sınıfları yaratıp istemciye döner. İstemci sınıf, kullandığı sınıfların sadece üst sınıflarını, yani soyut sınıflarını bilir. Bu sınıfları ona yaratıp döndüren fabrika sınıfının da sadece soyut sınıfını içerir. Alttaki detaylar istemci sınıftan gizlenmiş, sorumluluk "Soyut Fabrika" tasarım deseni ile fabrika sınıflarına verilmiştir. Bu tasarım deseni Fabrika Yordam tasarım desenine benzer. Fakat bu tasarım deseninde yaratılacak birden fazla sınıf hiyerarşisi tipi bulunur. Fakat "fabrika yordam" tasarım deseninde tek tip nesne yaratılması ihtiyacı bulunur.Kısaca bu tasarım deseni ile birden fazla sınıf hiyerarşisi nesneleri, kurulacak birden fazla fabrika nesneleri ile yaratılır. İstemci kendisine uygun fabrika nesnesini yarattırır. İhtiyacı olan nesnelerin yaratılma sorumluluğunu fabrika nesnelerine bırakır.
 ######
     "Örnek uygulamamızda "Sipariş Gönderici" bir sistem tasarlıyoruz. 
@@ -54,14 +54,14 @@
      
      Örnek uygulamamızda birinci parametre olarak "hızlı", ikinci parametre olarak da 105 girilmiştir."
      
-###4 - ProtoType(Kopya Nesne)
+### 4 - ProtoType(Kopya Nesne)
 ####    Var olan bir nesneden, kopyalama yöntemi ile yeni nesne yaratmak için bu tasarım deseni kullanılır. Nesne yaratmak için "new" operatörü kullanılmaz. Yazılım dillerindeki "clone" gibi, nesne kopyalama yordamlarından faydalanılır. Örneğin java programlama dilinde, bir nesnenin kopyalanabilmesi için, nesnenin "Cloneable" arayüzünden türemiş olması gereklidir. Bazı nesneler çok büyük olup, çok kaynak harcıyor olabilir. Bu nesnelerin yeniden yaratılması yerine, kolonlanması performans ve kaynak kullanımı açısından tasarruf edilmesine yarar. Bu durumlarda "Kopya Nesne" tasarım deseni kullanılabilir.
 ######
      Örnekte, kopyalanabilme özelliğine sahip ( Java Cloneable arayüzünden türemiş ) bir Resim sınıfı bulunmaktadır. 
      Bu sınıfın renk, boy, en gibi sınıf değişkenleri bulunmakta ve bir de kopyasının alınmasına yarayan ve dışarıdan çağırılabilen ( public ) bir "kopyaAl" yordamı vardır. 
      İstemci sınıf (ResimÜretici) bu yordam ile sınıfın kopyasını oluşturabilmektedir.
 
-###5 - Builder(Kurucu)
+### 5 - Builder(Kurucu)
 ####    Bu tasarım deseni ile bir nesneyi, bir sınıfı, aşama aşama farklı özellikleri ile oluşturabiliriz. Nesneyi farklı özellikler ile oluşturmaya yarayan bu sınıfa Kurucu nesne ismi verilir. Kurucu nesneden farklı özelliklerde alt sınıflar da türeyebilir. Kurucunun oluşturduğu nesneye ihtiyaç duyan istemci sınıf, istediği özelliklerde nesneyi oluşturabilecek kurucu oluşturur ve kurucuya istediği nesnenin oluşması için isteklerde bulunur. En sonunda da bu nesneyi alır ve kullanır. İstemci böylece nesne yaratma sorumluluğunu kurucu nesneye bırakmış olur. Tabi her basit nesnenin, bir de kurucusunu oluşturmaya gerek yoktur. Kurucu nesne genelde, içinde çok özellik barındıran, karmaşık nesnelerin oluşumunda görev alması daha yerindedir.
 ######
      Örnek uygulamada, yaratılacak nesne Pide nesnesidir. 
