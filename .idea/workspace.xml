@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108a5a33-b3e0-4aa3-b6aa-8f1f82e22dfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/Image.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/ProxyImage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/ProxyPatternDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/RealImage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/ChatRoom.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/MediatorPatternDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/User.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,32 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/facade/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/facade/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShapeMaker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/facade/ShapeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,19 +40,6 @@
             <state relative-caret-position="85">
               <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/facade/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +92,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyPatternDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProxyPatternDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/ProxyPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/ChatRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MediatorPatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/MediatorPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,6 +179,9 @@
         <option value="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/ProxyImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/RealImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/structural/proxy/ProxyPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/MediatorPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/ChatRoom.java" />
       </list>
     </option>
   </component>
@@ -286,7 +288,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mg" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
@@ -298,8 +300,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mg" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProxyPatternDemo">
+  <component name="RunManager" selected="Application.MediatorPatternDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -347,6 +349,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="designpattern.com.mg.pattern.structural.facade.FacadePatternDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com.mg.pattern" />
+      <envs />
+    </configuration>
+    <configuration name="MediatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="designpattern.com.mg.pattern.behavioral.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="designpattern.com.mg.pattern.behavioral.mediator.MediatorPatternDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -451,14 +472,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.FacadePatternDemo" />
       <item index="1" class="java.lang.String" itemvalue="Application.ProxyPatternDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MediatorPatternDemo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProxyPatternDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FacadePatternDemo" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.MediatorPatternDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ProxyPatternDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FacadePatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +499,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540276946150</updated>
       <workItem from="1540276948900" duration="311000" />
-      <workItem from="1540277351477" duration="1833000" />
+      <workItem from="1540277351477" duration="3432000" />
     </task>
     <task id="LOCAL-00001" summary="FacadePattern example added">
       <created>1540278382645</created>
@@ -485,11 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540278382645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ProxyPattern example added">
+      <created>1540279201402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540279201402</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2144000" />
+    <option name="totallyTimeSpent" value="3743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +571,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FacadePattern example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="FacadePattern example added" />
+    <MESSAGE value="ProxyPattern example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProxyPattern example added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -585,8 +616,8 @@
         <state relative-caret-position="68">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="false" />
+            <element signature="e#163#164#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,8 +638,8 @@
         <state relative-caret-position="68">
           <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="false" />
+            <element signature="e#163#164#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -680,6 +711,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/ChatRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpattern/com/mg/pattern/behavioral/mediator/MediatorPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
