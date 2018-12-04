@@ -7,7 +7,7 @@ package designpattern.com.mg.pattern.creational.builder;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public interface IItem {
     public String name();

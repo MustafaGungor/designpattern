@@ -7,13 +7,10 @@ package designpattern.com.mg.pattern.creational.abstractfactory;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class Blue implements IColor{
-
-    @Override
     public void fill() {
         System.out.println("BLUE");
     }
-    
 }

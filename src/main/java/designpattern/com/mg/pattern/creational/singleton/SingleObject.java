@@ -7,7 +7,7 @@ package designpattern.com.mg.pattern.creational.singleton;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class SingleObject {
     private static SingleObject instance = new SingleObject();

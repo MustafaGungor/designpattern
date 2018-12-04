@@ -8,7 +8,7 @@ package designpattern.com.mg.pattern.creational.abstractfactory;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {

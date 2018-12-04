@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class Meal {
     private List<IItem> items = new ArrayList<IItem>();

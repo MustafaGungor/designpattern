@@ -7,7 +7,7 @@ package designpattern.com.mg.pattern.structural.composite;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class CompositePatternDemo {
     public static void main(String[] args) {

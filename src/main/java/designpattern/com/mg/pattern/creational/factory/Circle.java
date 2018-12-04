@@ -7,7 +7,7 @@ package designpattern.com.mg.pattern.creational.factory;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class Circle implements Shape {
 

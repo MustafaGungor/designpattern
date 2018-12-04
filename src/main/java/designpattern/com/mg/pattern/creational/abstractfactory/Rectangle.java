@@ -7,7 +7,7 @@ package designpattern.com.mg.pattern.creational.abstractfactory;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class Rectangle implements IShape {
 

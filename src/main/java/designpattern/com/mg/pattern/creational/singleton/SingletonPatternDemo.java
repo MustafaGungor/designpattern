@@ -7,7 +7,7 @@ package designpattern.com.mg.pattern.creational.singleton;
 
 /**
  *
- * @author Asis
+ * @author Mustafa Güngör
  */
 public class SingletonPatternDemo {
     public static void main(String[] args) {
